@@ -9,14 +9,6 @@ class ThreeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => MyModel(),
-//      child: MaterialApp(
-//        title: 'Flutter Demo',
-//        theme: ThemeData(
-//
-//          primarySwatch: Colors.blue,
-//          visualDensity: VisualDensity.adaptivePlatformDensity,
-//        ),
-      // home:Scaffold(
       child: Scaffold(
         appBar: AppBar(
 

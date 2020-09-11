@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'MyModel.dart';
 
-
 class ThreeScreen extends StatelessWidget {
+  //Проверяем работу провайдера
 
   @override
   Widget build(BuildContext context) {
